@@ -1,0 +1,182 @@
+
+
+*{
+     font-family: serif;
+      margin: 0;
+      padding: 0;
+}
+
+.img-responsive{
+    width: 300px;height: 70px;
+}
+
+nav{
+    background-color: #4caf50;
+}
+
+.navbar-nav{
+    justify-content: center;
+    color: white;
+ }
+/* branded content start here  */
+
+#brand {
+    height: 100vh;
+    background-color: rgba(200, 195, 195, 0.72);
+    width: 100%;
+}
+/* .main{
+    position: relative;
+    top: 50px;
+} */
+
+#team{
+    background-color: #002d45;
+}
+/* @media (max-width: 756px)
+{
+    .mask{
+       display: none;
+       
+      
+    }
+    .pic{
+        display: none;
+        background-color: red;
+
+    }
+} */
+
+.gaps{
+    padding: 100px 0px;
+    background-color: red;
+}
+
+/* top stories */
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.picture {
+    max-width: 150px;
+    float: left;
+    height: 100px;
+    margin-top: 5px;
+    margin-right: 13px !important;
+
+}
+.wrapper{
+  
+  
+    width: 100%;
+
+}
+.text-box{
+    color: black;
+
+}
+
+.text-box .head{
+     font-size: 14px;
+     font-weight: 600;
+     /* padding: 5px */
+   
+}
+.text-box .para{
+     font-size: 10px;
+     margin-top: -15px;
+}
+
+/* overlay */
+.main-container {
+    position: relative;
+}
+
+.image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    bottom: -110%;
+    color: #fff;
+    padding: 50px;
+    background-color: red;
+   display: inline-block;
+
+   
+
+
+}
+
+.card-title {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    /* margin-bottom: 5px; */
+
+}
+.mask{
+    position: relative;
+    /* width: 100%; */
+}
+.mask .main-img{
+    width: 100%;
+  height: auto;
+}
+
+ .mask .play-btn  {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    /* background-color: #555; */
+    color: white;
+    font-size: 16px;
+    /* padding: 12px 24px; */
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    width: 100px;
+    
+  }
+  .mask .play-btn:hover{
+    color: #002d45;
+  }
+
+  .mask1{
+    position: relative;
+    /* width: 100%; */
+}
+.mask1 .main-img1{
+    width: 100%;
+  height: auto;
+}
+  .mask1 .play-btn{
+    width: 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    /* background-color: #555; */
+    color: white;
+    font-size: 16px;
+    /* padding: 12px 24px; */
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  #divide{
+    background-color: #a2e7c1 !important;
+  }
